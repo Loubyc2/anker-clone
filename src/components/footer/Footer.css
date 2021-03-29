@@ -1,0 +1,47 @@
+.footer__content {
+    padding: 1rem;
+}
+
+.footer__content>p {
+    font-size: 2rem;
+}
+
+.footer__marks-content p {
+    margin-bottom: .8rem;
+    font-weight: bold;
+}
+
+.footer__marks {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer__direction {
+    margin: 1rem 0;
+}
+
+.footer__direction h2 {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1rem;
+    margin-bottom: .5rem;
+}
+
+.footer__iframe {
+    width: 100%;
+}
+
+.footer__copyright {
+    background-color: #222;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+.footer__copyright p {
+    margin-top: .5rem;
+}
+
+.footer__copyright a {
+    color: #fff;
+}
