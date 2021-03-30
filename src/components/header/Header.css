@@ -3,7 +3,7 @@ a {
     color: #222;
 }
 
-.header {
+.header__contentent {
     padding: .6rem .8rem;
     background-color: #f8f8f8;
 }
@@ -36,3 +36,8 @@ a {
     align-items: center;
     padding: .2rem 1rem;
 }
+
+
+/* .header__bottom {
+    margin-bottom: 1rem;
+} */

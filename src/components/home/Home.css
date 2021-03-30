@@ -310,3 +310,9 @@ p {
     color: #fff;
     background-color: #222;
 }
+
+.hideHome {
+    display: none;
+    background-color: blue;
+    height: 10px;
+}

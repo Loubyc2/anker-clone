@@ -1,13 +1,14 @@
 import React from 'react';
 import { Link } from 'react-router-dom'
-import './Home.css'
+import './Home.css';
+
 
 import data from '../data';
 
-
 function Home() {
+
     return (
-        <div className='home'>
+        <div className='home' >
             <div className="home__principal-banner">
                 <img src={data.principa1} alt="home-banner" />
                 <img src={data.principa2} alt="home-banner" />
@@ -130,6 +131,7 @@ function Home() {
                     <button className='newsletter-btn'>Enskri</button>
                 </div>
             </div>
+
         </div>
     )
 }
