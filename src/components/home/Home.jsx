@@ -4,11 +4,15 @@ import './Home.css';
 
 
 import data from '../data';
+import HomeServices from './HomeServices';
+//import Header from '../header/Header';
+//import Footer from '../footer/Footer';
 
 function Home() {
 
     return (
         <div className='home' >
+
             <div className="home__principal-banner">
                 <img src={data.principa1} alt="home-banner" />
                 <img src={data.principa2} alt="home-banner" />
@@ -99,39 +103,12 @@ function Home() {
                 </div>
             </div>
             {/* home services */}
-            <div className='home__services'>
-                <div>
-                    <img src={data.service_1} alt="service-img" />
-                    <h5>Livrezon adomisil sou tout tèritwa</h5>
-                    <p>Ou kapab reesevwa acha w lakay ou</p>
-                </div>
-                <div>
-                    <img src={data.service_2} alt="service-img" />
-                    <h5>Anbalaj kado disponib</h5>
-                    <p>Kòmand ou anbalaye an papye kado disponib</p>
-                </div>
-                <div>
-                    <img src={data.service_3} alt="service-img" />
-                    <h5>Pwodui yo garanti</h5>
-                    <p>Apati 12 mwa garanti pou tout pwodui Lb Design</p>
-                </div>
-                <div>
-                    <img src={data.service_4} alt="service-img" />
-                    <h5>Acha sekirize</h5>
-                    <p>Nou genyen gwo estanda sekirite ak pwoteksyon done</p>
-                </div>
+            <div>
+                <HomeServices />
             </div>
-            {/* home newsletter */}
-            <div className="home__newsletter">
-                <h1>Enskri w nan Newsletter nou an</h1>
-                <p>Resevwa nouvèl sou nouvo pwodui nou yo ak meyè rabè nou yo dirèk sou imel ou.</p>
-                <span>Vin yon patnè Lb Design!</span>
-                <div className="newsletter-search">
-                    <input type="text" placeholder='Adrès imel ou...' />
-                    <button className='newsletter-btn'>Enskri</button>
-                </div>
-            </div>
+            {/* Footer */}
 
+            {/* <Footer /> */}
         </div>
     )
 }

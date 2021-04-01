@@ -1,0 +1,96 @@
+.account-content {
+    padding: 2rem;
+}
+
+.account__title {
+    text-align: center;
+    color: #000;
+    padding: 1rem;
+}
+
+.account__title h1 {
+    font-weight: bold;
+}
+
+.account__title span {
+    color: #00aaff;
+}
+
+.account__title span:hover {
+    color: #00aadd;
+}
+
+.account__form-inputs {
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1rem;
+}
+
+.account__form-inputs label {
+    color: #000;
+    font-weight: bold;
+    margin-bottom: .5rem;
+}
+
+.account-mail,
+.account-password {
+    display: flex;
+    align-self: center;
+    padding: .5rem;
+    border: 1px solid rgb(224, 223, 223);
+    border-radius: 4px;
+}
+
+.account__form-inputs input {
+    background-color: transparent;
+    border: none;
+    width: 100%;
+}
+
+.account__form-inputs input:focus {
+    outline: none;
+}
+
+.account__form-icons {
+    color: #7272729b;
+    margin-right: .6rem;
+}
+
+.account__form ::placeholder {
+    color: #727272;
+}
+
+.account__form-btn-wrapper {
+    margin-top: 3rem;
+    margin-bottom: .6rem;
+    text-align: center;
+}
+
+.account__form-btn {
+    border: none;
+    padding: .3rem 1rem;
+    background-color: #00aaff;
+    color: #fff;
+    text-transform: uppercase;
+    border-radius: 2.5px;
+}
+
+.account__form-btn:hover {
+    background-color: #fff;
+    color: #00aaff;
+    font-weight: bold;
+    border: 1px solid #00aaff;
+    margin-bottom: -2px;
+}
+
+.account-forgot-password-link {
+    color: #00aaff;
+    font-size: 1.2rem;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+
+.account-forgot-password-link:hover {
+    color: #00aadd;
+}
